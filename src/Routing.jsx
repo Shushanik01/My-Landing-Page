@@ -7,7 +7,7 @@ import SignUp from "./SignUp";
 function Routing(){
 
 return(
-<BrowserRouter>
+<BrowserRouter basename="/My-Landing-Page">
 <Routes>
     <Route path="/" element={<App/>} />
     <Route path="/signIn" element={<SignIn/>} />
