@@ -8,7 +8,7 @@ function Routing() {
     return (
         <HashRouter>
             <Routes>
-                <Route path="/" element={<Navigate to="/signUp" />} />
+                <Route path="/" element={<App />} />
                 <Route path="/signIn" element={<SignIn />} />
                 <Route path="/dashboard" element={<Dashboard />} />
                 <Route path="/signUp" element={<SignUp />} />
