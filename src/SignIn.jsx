@@ -81,7 +81,7 @@ function SignIn() {
     return (
         <Box
             sx={{
-                backgroundImage: 'url("/signInPage.jpeg")',
+                backgroundImage: `url(${process.env.PUBLIC_URL}/signInPage.jpeg)`,
                 minHeight: '100vh',
                 display: 'flex',
                 justifyContent: 'flex-end',
