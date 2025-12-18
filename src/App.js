@@ -14,7 +14,7 @@ function App() {
     <Fragment>
       <Box
         sx={{
-          backgroundImage: 'url("/IMG_1794.jpeg")',
+          backgroundImage: `url(${process.env.PUBLIC_URL}/IMG_1794.jpeg)`,
           backgroundSize: 'cover',
           backgroundPosition: 'center',
           backgroundRepeat: 'no-repeat',
